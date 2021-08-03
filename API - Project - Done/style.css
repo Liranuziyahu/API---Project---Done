@@ -1,0 +1,115 @@
+body{
+    background-color: #428bca;
+}
+p{
+    
+}
+#style_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+#container_blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style_div{
+    display: flex;
+    text-align: center;
+    width: 20vw;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(73,183,255,1);
+    flex-direction: column;
+    align-items: stretch;
+}
+.number_post{
+    order: 1;
+}
+.title
+{
+    order:2;
+}
+.author_name
+{
+    order:3;
+}
+.body_post{
+    order:4;
+}
+.CommH3{
+    order:5;
+}
+.Comments_users{
+    order: 6;
+    max-width: 382px;
+}
+
+.section_comment_Publish{
+    order: 7;
+    display: none;
+    flex-direction: column;
+}
+.section_comment_Publish > h3
+{
+font-size: 1.5rem;
+
+}
+.section_comment_Publish > label
+{
+font-size: 1.2rem;
+font-weight: 400;
+
+}
+.textare_comment{
+    height: 150px;
+}
+.btn_publish{
+    height: 42px;
+    width: 103px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color:rgb(12,136,239) ;
+    font-weight: 600;
+}
+.divRecom{
+    height: 100px;
+}
+
+/* Add New Post */
+#addNewPost{
+    width: 111px;
+    height: 44px;
+    border-radius: 15px;
+    margin: 10px 0px 0 8px
+    
+}
+#section_newPost{
+    display: none;
+    position: absolute;
+    width: 349px;
+    height: 399px;
+    top: 73px;
+    left: 15px;
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+#body_blog
+{
+    width: 300px;
+    height: 156px;
+}
+#btn_blog{
+    height: 42px;
+    width: 103px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #eee;
+    margin-top: 10px;
+   font-size: 1.3rem;
+}
